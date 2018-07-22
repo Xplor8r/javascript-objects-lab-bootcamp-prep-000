@@ -3,4 +3,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   recipes[key] = value;
   return recipes;
 }
-function 
+function updateObjectWithKeyAndValue(object, key, value) {
+  recipes.assign({}, key);
+}
